@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import HeroCard from "./components/HeroCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import heroes from "./hots-heroes.json";
 
 class App extends Component {
@@ -20,7 +19,7 @@ class App extends Component {
       if(hero.attribute_id === id){
         if(hero.clicked){
           score = 0;
-          heroes = resetHeroes(heroes) 
+          heroes = resetHeroes(heroes)
         } else{
           hero.clicked=true;
           score++;
@@ -33,21 +32,27 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
-        <Title>Heroes of the Storm!</Title>
-        score:{this.state.score}
-        best score:{this.state.bestScore}
-        {this.state.heroes.map(hero => (
-          <HeroCard
-            clickHero={this.clickHero}
-            id={hero.attribute_id}
-            key={hero.attribute_id}
-            name={hero.name}
-            image={hero.icon_url["92x93"]}
-            shortName={hero.short_name}
-          />
-        ))}
-      </Wrapper>
+      <div>
+        <Wrapper>
+          {this.state.heroes.map(hero => (
+            <HeroCard
+              clickHero={this.clickHero}
+              id={hero.attribute_id}
+              key={hero.attribute_id}
+              name={hero.name}
+              image={hero.icon_url["92x93"]}
+              shortName={hero.short_name}
+            />
+          ))}
+        </Wrapper>
+        <nav className="navbar fixed-bottom navbar-dark bg-dark text-light">
+          <span className="navbar-brand nav-link">Instructions</span>
+          <div className="nav-item">
+            <span className="navbar-text">Score: {this.state.score}</span>
+            <span className="navbar-text">&nbsp;&nbsp;Best Score: {this.state.bestScore}</span>
+          </div>
+        </nav>
+      </div>
     );
   }
 }
