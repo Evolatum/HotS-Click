@@ -1,0 +1,18 @@
+.card {
+  height: 93px;
+  width: 92px;
+  margin: 1rem;
+  position: relative;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.card:hover{
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 0 5px 10px #999, 0 5px 10px #999;
+}
+
+.card > .img-container {
+  height:93px;
+  width: 92px;
+}
