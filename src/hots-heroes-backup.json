@@ -110,6 +110,17 @@
         }
     },
     {
+        "name": "Cho",
+        "short_name": "chogall",
+        "attribute_id": "CCho",
+        "role": "Warrior",
+        "type": "Melee",
+        "release_date": "2015-11-17",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/chogall.png"
+        }
+    },
+    {
         "name": "Chromie",
         "short_name": "chromie",
         "attribute_id": "Chro",
@@ -594,6 +605,17 @@
         }
     },
     {
+        "name": "The Lost Vikings",
+        "short_name": "lostvikings",
+        "attribute_id": "Lost",
+        "role": "Specialist",
+        "type": "Melee",
+        "release_date": "2015-02-10",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/lostvikings.png"
+        }
+    },
+    {
         "name": "Thrall",
         "short_name": "thrall",
         "attribute_id": "Thra",
@@ -737,6 +759,17 @@
         }
     },
     {
+        "name": "Zul'jin",
+        "short_name": "zuljin",
+        "attribute_id": "ZULJ",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2017-01-04",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/zuljin.png"
+        }
+    },
+    {
         "name": "Kel'Thuzad",
         "short_name": "kelthuzad",
         "attribute_id": "KelT",
@@ -756,6 +789,171 @@
         "release_date": "2017-09-26",
         "icon_url": {
             "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/ana.png"
+        }
+    },
+    {
+        "name": "Junkrat",
+        "short_name": "junkrat",
+        "attribute_id": "Junk",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2017-10-17",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/junkrat.png"
+        }
+    },
+    {
+        "name": "Alexstrasza",
+        "short_name": "alexstrasza",
+        "attribute_id": "Alex",
+        "role": "Support",
+        "type": "Ranged",
+        "release_date": "2017-11-14",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/alexstrasza.png"
+        }
+    },
+    {
+        "name": "Hanzo",
+        "short_name": "hanzo",
+        "attribute_id": "Hanz",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2017-12-12",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/hanzo.png"
+        }
+    },
+    {
+        "name": "Blaze",
+        "short_name": "blaze",
+        "attribute_id": "Fire",
+        "role": "Warrior",
+        "type": "Ranged",
+        "release_date": "2018-01-09",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/blaze.png"
+        }
+    },
+    {
+        "name": "Maiev",
+        "short_name": "maiev",
+        "attribute_id": "Maie",
+        "role": "Assassin",
+        "type": "Melee",
+        "release_date": "2018-02-06",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/maiev.png"
+        }
+    },
+    {
+        "name": "Fenix",
+        "short_name": "fenix",
+        "attribute_id": "FENX",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2018-03-27",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/fenix.png"
+        }
+    },
+    {
+        "name": "Deckard",
+        "short_name": "deckard",
+        "attribute_id": "DECK",
+        "role": "Support",
+        "type": "Melee",
+        "release_date": "2018-04-24",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/deckard.png"
+        }
+    },
+    {
+        "name": "Yrel",
+        "short_name": "yrel",
+        "attribute_id": "YREL",
+        "role": "Warrior",
+        "type": "Melee",
+        "release_date": "2018-06-12",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/yrel.png"
+        }
+    },
+    {
+        "name": "Whitemane",
+        "short_name": "whitemane",
+        "attribute_id": "WHIT",
+        "role": "Support",
+        "type": "Ranged",
+        "release_date": "2018-08-07",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/whitemane.png"
+        }
+    },
+    {
+        "name": "Mephisto",
+        "short_name": "mephisto",
+        "attribute_id": "MEPH",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2018-09-04",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/mephisto.png"
+        }
+    },
+    {
+        "name": "Mal'Ganis",
+        "short_name": "malganis",
+        "attribute_id": "MalG",
+        "role": "Warrior",
+        "type": "Melee",
+        "release_date": "2018-10-16",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/malganis.png"
+        }
+    },
+    {
+        "name": "Orphea",
+        "short_name": "orphea",
+        "attribute_id": "ORPH",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2018-11-13",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/orphea.png"
+        }
+    },
+    {
+        "name": "Imperius",
+        "short_name": "imperius",
+        "attribute_id": "IMPE",
+        "role": "Warrior",
+        "type": "Melee",
+        "release_date": "2019-01-08",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/imperius.png"
+        }
+    },
+    {
+        "name": "Anduin",
+        "short_name": "anduin",
+        "attribute_id": "Andu",
+        "role": "Support",
+        "type": "Ranged",
+        "release_date": "2019-04-30",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/anduin.png"
+        }
+    },
+    {
+        "name": "Qhira",
+        "short_name": "qhira",
+        "attribute_id": "NXHU",
+        "role": "Assassin",
+        "type": "Ranged",
+        "release_date": "2019-08-06",
+        "icon_url": {
+            "92x93": "http:\/\/s3.hotsapi.net\/img\/heroes\/92x93\/qhira.png"
         }
     }
 ]
