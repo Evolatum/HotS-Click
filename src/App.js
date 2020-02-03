@@ -19,7 +19,8 @@ class App extends Component {
       if(hero.attribute_id === id){
         if(hero.clicked){
           score = 0;
-          heroes = resetHeroes(heroes)
+          heroes = resetHeroes(heroes);
+          this.showModal("#modalLose");
         } else{
           hero.clicked=true;
           score++;
@@ -29,6 +30,10 @@ class App extends Component {
     };
     this.setState({ heroes,score,bestScore });
   };
+
+  showModal = name => {
+    window.$(name).modal('show');
+  }
 
   render() {
     return (
@@ -46,7 +51,7 @@ class App extends Component {
           ))}
         </Wrapper>
         <nav className="navbar fixed-bottom navbar-dark bg-dark text-light">
-          <span className="navbar-brand nav-link">Instructions</span>
+          <span className="navbar-brand nav-link" onClick={()=>this.showModal("#modalInfo")}>Instructions</span>
           <div className="nav-item">
             <span className="navbar-text">Score: {this.state.score}</span>
             <span className="navbar-text">&nbsp;&nbsp;Best Score: {this.state.bestScore}</span>
