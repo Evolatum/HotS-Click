@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HotS-Click/static/css/main.947919c3.chunk.css",
+    "main.js": "/HotS-Click/static/js/main.729116d3.chunk.js",
+    "main.js.map": "/HotS-Click/static/js/main.729116d3.chunk.js.map",
+    "runtime-main.js": "/HotS-Click/static/js/runtime-main.621c7272.js",
+    "runtime-main.js.map": "/HotS-Click/static/js/runtime-main.621c7272.js.map",
+    "static/js/2.8dca8a7d.chunk.js": "/HotS-Click/static/js/2.8dca8a7d.chunk.js",
+    "static/js/2.8dca8a7d.chunk.js.map": "/HotS-Click/static/js/2.8dca8a7d.chunk.js.map",
+    "index.html": "/HotS-Click/index.html",
+    "precache-manifest.901fbc825bee0d3753440c11dda30257.js": "/HotS-Click/precache-manifest.901fbc825bee0d3753440c11dda30257.js",
+    "service-worker.js": "/HotS-Click/service-worker.js",
+    "static/css/main.947919c3.chunk.css.map": "/HotS-Click/static/css/main.947919c3.chunk.css.map",
+    "static/js/2.8dca8a7d.chunk.js.LICENSE.txt": "/HotS-Click/static/js/2.8dca8a7d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.621c7272.js",
+    "static/js/2.8dca8a7d.chunk.js",
+    "static/css/main.947919c3.chunk.css",
+    "static/js/main.729116d3.chunk.js"
+  ]
+}
